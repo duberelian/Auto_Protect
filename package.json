@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
-    "start": "serve -s dist -1 10000"
+    "preview": "vite preview",
+    "start": "serve -s dist -l $PORT"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -52,6 +52,7 @@
     "react-hook-form": "^7.70.0",
     "react-resizable-panels": "^4.2.2",
     "recharts": "^2.15.4",
+    "serve": "^14.2.4",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.4.0",
     "vaul": "^1.1.2",
