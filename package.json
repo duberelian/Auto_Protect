@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "start": "serve -s dist -1 10000"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
